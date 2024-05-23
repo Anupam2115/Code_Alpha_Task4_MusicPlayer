@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spotify Music Player</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="music-image">
+        <img src="img/spotify.png" alt="Music Image">
+      </div>
+  <div class="music-player">
+   
+    
+    <div class="search-bar">
+      
+      <input type="search" id="search-input" placeholder="Search Music">
+      <button id="search-button">Search</button>
+    </div>
+    <div class="playlist">
+      <h2>Playlist</h2>
+      <ul id="playlist-list">
+        <!-- playlist items will be rendered here -->
+      </ul>
+    </div>
+    <div class="music-controls">
+      <button id="play-button">Play</button>
+      <button id="pause-button">Pause</button>
+      <button id="skip-button">Skip</button>
+      <input type="range" id="volume-control" min="0" max="100" value="50">
+    </div>
+    <div class="music-info">
+      <h2 id="song-title"></h2>
+      <p id="song-artist"></p>
+
+    </div>
+    <button id="share-button">Share</button>  
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
